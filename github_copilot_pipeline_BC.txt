@@ -1,0 +1,29 @@
+Problem Definition: key question we’re trying to answer?
+You should clearly define the problem that you are trying to solve, such as predicting if a building will have an insurance claim or not, based on its characteristics and external factors.
+You should also state the assumptions and limitations of your problem, such as the scope, the data availability, the ethical and legal issues, and the expected outcomes and impacts of your solution.
+Data
+You should collect and organize the data that you need for your problem, such as the provided data from the challenge website, and the external data sources that you can join with the Insee variable.
+You should also understand the data that you have, such as the data types, the data dictionary, the data quality, and the data distribution.
+Evaluation
+You should define the evaluation metric that you will use to measure the performance of your model, such as the normalized gini coefficient, which is the metric used for this challenge.
+You should also define the baseline or benchmark that you will compare your model with, such as a simple or fast model, or a previous or existing solution.
+You should also define the success criteria that you will use to determine if your model is good enough, such as a minimum or target score, or a relative or absolute improvement.
+Features
+You should identify the features that you will use as input variables for your model, such as the provided features from the challenge website, and the external features that you can create or extract from the data sources.
+You should also engineer the features that you have, such as cleaning, preprocessing, encoding, scaling, transforming, selecting, or creating new features, to make them more suitable and informative for your model.
+Preparing the tools (required libraries)
+You should import the libraries that you will need for your pipeline, such as pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, tensorflow, etc.
+You should also set up the environment and the configuration that you will need for your pipeline, such as the random seed, the logging level, the file paths, the hyperparameters, etc.
+Data Exploration (exploratory data analysis or EDA)
+You should explore the data that you have, such as comparing different columns to each other, comparing them to the target variable, and referring back to your data dictionary and reminding yourself of what different columns mean.
+You should also answer the questions that you have about your data, such as:
+What question(s) are you trying to solve (or prove wrong)?
+What kind of data do you have and how do you treat different types?
+What’s missing from the data and how do you deal with it?
+Where are the outliers and why should you care about them?
+How can you add, change or remove features to get more out of your data?
+You should also visualize the data that you have, such as using plots and charts to show the distribution, the correlation, the frequency, the scatter, the balance, the missing values, etc. of your data.
+Modeling
+You should choose a model that suits your problem, such as any of the binary classification algorithms that you mentioned before, or ensemble methods, or deep learning models.
+You should also train and evaluate your model, such as using the training and testing sets, the evaluation metric, the confusion matrix, the classification report, the ROC curve, the AUC, etc.
+You should also tune and compare your model, such as using hyperparameter tuning, cross-validation, feature importance, model comparison,

@@ -1,0 +1,50 @@
+
+# Building Insurance Challenge Pipeline
+
+## 1. Problem Definition:
+- **Key Question:** Predict the probability of a building having at least one insurance claim during the insured period.
+- **Objective:** Maximize the normalized Gini coefficient.
+
+## 2. Data:
+- **Dataset:** Utilize data containing variables such as Identifiant, ft_2_categ, EXPO, superficief, Insee, target, and other ft_i_categ.
+- **External Data:** Explore and integrate external data like shops number, unemployment rate, and weather by INSEE code for additional insights.
+
+## 3. Evaluation:
+- **Metric:** Utilize the normalized Gini coefficient for model evaluation.
+- **Benchmark:** A basic xgboost model achieved a 0.41 NGC score.
+
+## 4. Features:
+- **Identify Key Features:** superficief, ft_22_categ, EXPO.
+- **Feature Engineering:** Explore potential feature engineering opportunities to enhance predictive power.
+
+## 5. Preparing the Tools:
+- **Required Libraries:** Utilize common libraries such as pandas, numpy, scikit-learn, xgboost, and any additional libraries for data manipulation, modeling, and visualization.
+
+## 6. Data Exploration (EDA):
+- **Compare Different Columns:** Analyze relationships between variables and the target variable.
+- **Handle Missing Values:** Determine strategies for dealing with missing data.
+- **Outliers:** Identify and assess outliers.
+- **Data Balance:** Check if the dataset is balanced, considering stratification.
+- **Frequency Analysis:** Utilize pd.crosstab() for frequency analysis.
+- **Scatterplots:** Visualize relationships between key variables.
+- **Distribution:** Plot distributions of essential variables.
+- **Correlation:** Explore correlations between independent variables (correlation matrix + hypothesis testing).
+
+## 7. Modeling:
+- **Base Model:** Start with a simple and fast model (e.g., Naive Bayes).
+- **Scikit Learn Map:** Utilize scikit-learn's wide range of models.
+- **Model Comparison:** Develop custom evaluation functions, create bar charts for visualization.
+- **Hyperparameter Tuning:** Use techniques like RandomizedSearchCV followed by GridSearchCV.
+- **Feature Importance:** Assess feature importance using model-specific methods.
+- **Confusion Matrix, Cross-validation, Precision, Recall, F1 Score, Classification Report.**
+- **ROC Curve, Area Under Curve (AUC).**
+- **Timeseries Evaluation:** If applicable, evaluate models over time.
+- **More Evaluation with Visualization:** Enhance evaluation with additional visualizations.
+
+## 8. Further Improvements:
+- **Ensemble Methods:** Consider the use of ensemble methods for improved performance.
+- **Advanced Feature Engineering:** Experiment with advanced feature engineering techniques.
+- **Fine-tune Hyperparameters:** Optimize hyperparameters based on model performance.
+- **Optimize Computational Efficiency:** Ensure computational efficiency, especially for larger datasets.
+
+```
